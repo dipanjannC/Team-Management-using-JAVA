@@ -10,6 +10,7 @@ public class DBUtil
 		{
 			try 
 			{
+				//set Driver
 				Class.forName("com.mysql.jdbc.Driver");
 			}
 			catch (ClassNotFoundException e)
@@ -18,14 +19,15 @@ public class DBUtil
 			}
 		
 		}
-//													MAKING CONNECTION
+//										MAKING CONNECTION
 		static Connection makeConnection()
 		{
 			if (connection==null)
 			{
 				try
 				{
-					connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Criket_Team", "root", "root");
+					//set connector according to database
+					connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/nameOfDB", "root", "root");
 				}
 				catch (SQLException e) 
 				{
@@ -38,7 +40,7 @@ public class DBUtil
 	   
 		}
 		
-//													CLOSING CONNECTION
+//										CLOSING CONNECTION
 		static void closeConnection()
 		{
 			try {
