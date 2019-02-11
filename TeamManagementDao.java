@@ -102,7 +102,7 @@ public class TeamManagementDao {
 		return teamList;
 	}
 
-//                                                  LISTING THE DETAILS BASED ON CRITERIA
+//                                             LISTING THE DETAILS BASED ON CRITERIA
 	
 	public ArrayList teamDetail(String criteria) {
 		Connection connection = DBUtil.makeConnection();
@@ -138,7 +138,7 @@ public class TeamManagementDao {
 
 	
 	 
-//                                                    LISTING THE DETAILS BASED ON SKILL
+//                                                LISTING THE DETAILS BASED ON SKILL
 	
 	public static ArrayList listSkill(String skillSet) {
 		Connection connection = DBUtil.makeConnection();
@@ -174,7 +174,7 @@ public class TeamManagementDao {
 		return teamList;
 	}
     
-//                                                 CHECKING WHETHER THE GIVEN INPUT IS IN THE DATABASE                   
+//                                    CHECKING WHETHER THE GIVEN INPUT IS IN THE DATABASE                   
 	
 	public boolean checkJerseyNumber(int jerseyNumber)
 	{
@@ -233,7 +233,7 @@ public class TeamManagementDao {
 		 
 			return teamList;
 	}
-//											DISPLAYING THE DETAILS
+//     							DISPLAYING THE DETAILS
 	
 	public boolean checkCountry(String country)
     {
@@ -253,7 +253,7 @@ public class TeamManagementDao {
           }
           return flag;
     }
-//										LISTING THE DETAILS BASED ON COUNTRY
+//						LISTING THE DETAILS BASED ON COUNTRY
 	
 public ArrayList listPlayerByCountry(String country)
     {
