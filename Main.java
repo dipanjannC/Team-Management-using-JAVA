@@ -388,7 +388,7 @@ public class Main {
 		return names;
 	}
 
-// 						       					   DISPLAYING THE DETAILS
+// 						   DISPLAYING THE DETAILS
 
 	public static void displayPlayerDetails(int jerseyNumber)
 	{
