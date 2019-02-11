@@ -22,7 +22,7 @@ public class  checkValidation {
         return bool;
     }
   
-//                                               TO CHECK WHETHER ENTERED INPUT IS A STRING
+//                                              TO CHECK WHETHER ENTERED INPUT IS A STRING
        
     public static boolean checkCharacter(String strings)
     {
@@ -51,7 +51,7 @@ public class  checkValidation {
     public static boolean checkJerseyLength(String jerseyNumber)
     {
     	boolean bool=false;
-
+	// as Database integers Length was 11
     	if(jerseyNumber.length()<=11)
     	{
     		bool=true;
@@ -67,7 +67,7 @@ public class  checkValidation {
     public static boolean checkStringLength(String strings)
     {
     	boolean bool=false;
-
+	// as Database strings Length was 50
     	if(strings.length()<=50)
     	{
     		bool=true;
