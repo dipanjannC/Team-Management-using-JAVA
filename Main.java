@@ -7,7 +7,7 @@ public class Main {
 	static final Scanner input = new Scanner(System.in);
 
 	public static void main(String[] args) {
-
+//										           MENU DRIVEN PROGRAM
 		
 		while (1 != 0) {
 			System.out.println("\n\n\t----------------------------------  WELCOME TO TEAM MANAGEMENT --------------------------------");
@@ -29,7 +29,7 @@ public class Main {
 				TeamManagementDao teamObject = new TeamManagementDao();
 				switch (choice) {
 				
-//                                                      INSERTING THE DETAILS
+//                                                     INSERTING THE DETAILS
 				
 				case 1: {
 
@@ -255,7 +255,7 @@ public class Main {
               }
 
 
-//                                                       CLOSING THE CONNECTION 
+//                                                    CLOSING THE CONNECTION 
 				
 				case 8: {
 					System.out.println("\n\n\t----------------------------------  THANK YOU --------------------------------");
@@ -319,7 +319,7 @@ public class Main {
 	}
 	
 	
-//                                                        GETTING THE SKILL	
+//                                                     GETTING THE SKILL	
 	
 
 	public static String getSkill() {
@@ -369,7 +369,7 @@ public class Main {
 
 	}
 
-//  							   FORMATTING THE STRING
+//  							 				  FORMATTING THE STRING
 	
 	
 	public static String formatStrings(String name) {
@@ -388,7 +388,7 @@ public class Main {
 		return names;
 	}
 
-// 						          DISPLAYING THE DETAILS
+// 						       					   DISPLAYING THE DETAILS
 
 	public static void displayPlayerDetails(int jerseyNumber)
 	{
